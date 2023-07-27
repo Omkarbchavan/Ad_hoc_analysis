@@ -1,3 +1,4 @@
+--In which quarter of 2020, got the maximum total_sold_quantity
 SELECT 
         (CASE
             WHEN (MONTH(fact_sales_monthly.date) IN (9 , 10, 11)) THEN 'Q1'
