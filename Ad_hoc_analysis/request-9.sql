@@ -1,3 +1,4 @@
+--Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution
 with cte1 as 
 (select c.channel AS channel,
 		sum((g.gross_price * s.sold_quantity) / 1000000) AS gross_sales_mln 
