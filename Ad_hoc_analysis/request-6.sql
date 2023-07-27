@@ -1,3 +1,4 @@
+-- Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market.
 select 
 	c.customer,c.customer_code,
     avg(pre_invoice_discount_pct) as avg_discount_pct
