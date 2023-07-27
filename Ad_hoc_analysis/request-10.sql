@@ -1,3 +1,4 @@
+--Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021
 with cte1 as (select 
 	p.division,p.product_code,
     p.product,sum(s.sold_quantity) as total_sold_quantity
