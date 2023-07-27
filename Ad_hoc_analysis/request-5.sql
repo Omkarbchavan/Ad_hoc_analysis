@@ -1,3 +1,4 @@
+-- Get the products that have the highest and lowest manufacturing costs
 select p.product_code,p.product,
 		m.manufacturing_cost
 from dim_product p
