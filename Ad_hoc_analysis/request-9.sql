@@ -12,5 +12,5 @@ group by c.channel
 order by gross_sales_mln desc)
 select cte1.channel AS channel,
 		cte1.gross_sales_mln AS gross_sales_mln,
-        round(((cte1.gross_sales_mln * 100) / sum(cte1.			gross_sales_mln) OVER () ),2) AS pct 
+        round(((cte1.gross_sales_mln * 100) / sum(cte1.gross_sales_mln) OVER () ),2) AS pct 
 from cte1
