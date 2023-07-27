@@ -1,3 +1,4 @@
+--Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month.This analysis helps to get an idea of low and high-performing months and take strategic decisions.
 SELECT 
         s.fiscal_year AS year,
         MONTHNAME(s.date) AS month,
